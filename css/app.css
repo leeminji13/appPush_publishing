@@ -1,1 +1,106 @@
-/* No CSS */
+#sec1 {
+  background-color: #ff854f;
+  background-image: url(../img/diamond.png);
+  width: 100%;
+}
+
+#sec1 .container .row .d-block .marketing {
+  color: white;
+  font-style: italic;
+}
+
+#sec1 .container .row .d-block .marketing span {
+  padding-left: 3px;
+}
+
+#phoneBg {
+  background-image: url(../img/phone.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 40%;
+  height: 0;
+  padding-bottom: 72%;
+}
+
+#sec2 {
+  background-color: #fdf2dd;
+  background-image: url(../img/sec2backimg.png);
+  background-size: 100%;
+  width: 100%;
+  height: 0;
+  padding-bottom: 63vw;
+}
+
+#sec2 .topbox {
+  width: 80%;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 30px 30px 0 0;
+  -webkit-box-shadow: 10px 5px 5px #cbbebe;
+          box-shadow: 10px 5px 5px #cbbebe;
+}
+
+#sec2 .topbox p {
+  font-size: 2rem;
+  line-height: 6rem;
+  margin: 0;
+}
+
+#sec2 .bottombox {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #fef9f3;
+  border-radius: 0 0 30px 30px;
+  -webkit-box-shadow: 10px 5px 5px #cbbebe;
+          box-shadow: 10px 5px 5px #cbbebe;
+}
+
+#sec2 .bottombox .wrap {
+  width: 80%;
+  padding: 5%;
+}
+
+#sec2 .bottombox .wrap .event {
+  padding: 2%;
+}
+
+#sec2 .bottombox .wrap .event .stepT {
+  margin-left: 10%;
+}
+
+#sec2 .bottombox .wrap .event .stepT .step {
+  width: 80px;
+  height: 40px;
+  border-radius: 30px;
+  background-color: #fef851;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 600;
+  color: #ff580e;
+}
+
+#sec2 .bottombox .wrap .event .stepT p {
+  font-weight: 600;
+  color: #ff580e;
+  margin: 2%;
+}
+
+#sec3 {
+  background-color: #f9e6c2;
+  width: 100%;
+  height: 0;
+  padding-bottom: 42vw;
+  border-top: 2px gray dashed;
+}
+
+#sec3 .c-brown {
+  font-size: 20px;
+  font-weight: 600;
+}
