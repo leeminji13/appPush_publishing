@@ -1,7 +1,68 @@
 #sec1 {
   background-color: #ff854f;
   background-image: url(../img/diamond.png);
+  background-size: 100%;
   width: 100%;
+}
+
+#sec1 .coinwrap .coin1 {
+  top: 0;
+  right: 0;
+  margin-top: -3%;
+  margin-right: 5%;
+}
+
+#sec1 .coinwrap .coin2 {
+  top: 0;
+  right: 0;
+  margin-top: 5%;
+  margin-right: 30%;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  #sec1 .coinwrap .coin2 {
+    margin-top: 6%;
+    margin-right: 75%;
+  }
+}
+
+#sec1 .coinwrap .coin3 {
+  top: 0;
+  right: 0;
+  margin-top: 33%;
+  margin-right: 5%;
+  z-index: 1;
+}
+
+#sec1 .coinwrap .coin4 {
+  top: 0;
+  left: 0;
+  margin-top: 43%;
+  margin-left: 48%;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  #sec1 .coinwrap .coin4 {
+    margin-top: 52%;
+    margin-right: 56%;
+  }
+}
+
+#sec1 .coinwrap .coin5 {
+  top: 0;
+  left: 0;
+  margin-top: 55%;
+  margin-left: 10%;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  #sec1 .coinwrap .coin5 {
+    margin-top: 90%;
+    margin-right: 18%;
+  }
 }
 
 #sec1 .container .row .d-block .marketing {
@@ -20,6 +81,24 @@
   width: 40%;
   height: 0;
   padding-bottom: 72%;
+  top: 0;
+  right: 0;
+  -webkit-transform: translate(0%, 8%);
+          transform: translate(0%, 8%);
+}
+
+#phoneBg .phonewrap img {
+  top: 0;
+  right: 0;
+  -webkit-transform: translate(102%, 258%);
+          transform: translate(102%, 258%);
+}
+
+@media (max-width: 768px) {
+  #phoneBg .phonewrap img {
+    -webkit-transform: translate(102%, 275%);
+            transform: translate(102%, 275%);
+  }
 }
 
 #sec2 {
@@ -27,11 +106,17 @@
   background-image: url(../img/sec2backimg.png);
   background-size: 100%;
   width: 100%;
-  height: 0;
-  padding-bottom: 63vw;
+  font-family: 'cafe';
 }
 
-#sec2 .topbox {
+#sec2 .boxwrap {
+  top: 0;
+  left: 0;
+  -webkit-transform: translateY(15%);
+          transform: translateY(15%);
+}
+
+#sec2 .boxwrap .topbox {
   width: 80%;
   margin: 0 auto;
   background-color: white;
@@ -40,13 +125,13 @@
           box-shadow: 10px 5px 5px #cbbebe;
 }
 
-#sec2 .topbox p {
+#sec2 .boxwrap .topbox p {
   font-size: 2rem;
   line-height: 6rem;
   margin: 0;
 }
 
-#sec2 .bottombox {
+#sec2 .boxwrap .bottombox {
   width: 80%;
   margin: 0 auto;
   background-color: #fef9f3;
@@ -55,20 +140,35 @@
           box-shadow: 10px 5px 5px #cbbebe;
 }
 
-#sec2 .bottombox .wrap {
+#sec2 .boxwrap .bottombox .wrap {
   width: 80%;
   padding: 5%;
+  height: 700px;
 }
 
-#sec2 .bottombox .wrap .event {
+@media (max-width: 1440px) {
+  #sec2 .boxwrap .bottombox .wrap {
+    height: 700px;
+  }
+}
+
+@media (max-width: 1024px) {
+  #sec2 .boxwrap .bottombox .wrap {
+    height: 500px;
+  }
+}
+
+@media (max-width: 768px) {
+  #sec2 .boxwrap .bottombox .wrap {
+    height: 400px;
+  }
+}
+
+#sec2 .boxwrap .bottombox .wrap .event {
   padding: 2%;
 }
 
-#sec2 .bottombox .wrap .event .stepT {
-  margin-left: 10%;
-}
-
-#sec2 .bottombox .wrap .event .stepT .step {
+#sec2 .boxwrap .bottombox .wrap .event .stepT .step {
   width: 80px;
   height: 40px;
   border-radius: 30px;
@@ -84,23 +184,57 @@
           align-items: center;
   font-weight: 600;
   color: #ff580e;
+  font-family: 'cafe';
 }
 
-#sec2 .bottombox .wrap .event .stepT p {
+#sec2 .boxwrap .bottombox .wrap .event .stepT p {
   font-weight: 600;
   color: #ff580e;
   margin: 2%;
+  font-family: 'cafe';
 }
 
 #sec3 {
   background-color: #f9e6c2;
   width: 100%;
-  height: 0;
-  padding-bottom: 42vw;
   border-top: 2px gray dashed;
 }
 
-#sec3 .c-brown {
-  font-size: 20px;
+#sec3 .sec3wrap {
+  top: 0;
+  left: 0;
+  margin-top: 10%;
+}
+
+#sec3 .sec3wrap .textWrap .sec3Text .c-brown,
+#sec3 .sec3wrap .textWrap .sec3Text .c-orange {
+  font-size: 2.2rem;
   font-weight: 600;
+  margin: 0;
+}
+
+#sec3 .sec3wrap .textWrap .sec3Text .c-brown {
+  color: #936f2a;
+  margin: 0;
+}
+
+#sec3 .sec3wrap .textWrap .sec3Text .c-orange {
+  color: #ff4e00;
+  margin: 0;
+}
+
+#sec3 .sec3wrap .textWrap .sec3Text .thinT,
+#sec3 .sec3wrap .textWrap .sec3Text .smallT {
+  color: #b19257;
+  margin: 0;
+}
+
+#sec3 .sec3wrap .handBg {
+  background-image: url(../img/hand.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 100%;
+  width: 33.33%;
+  height: 0;
+  padding-bottom: 37%;
 }
